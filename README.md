@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LetSpar - Train Your Wit
 
-## Getting Started
+Never fumble a comeback again. AI-coached wit training. Voice-first. 10 minutes a day.
 
-First, run the development server:
+## 🚀 Getting Started
+
+### Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+This generates a static export in the `out/` directory.
 
-To learn more about Next.js, take a look at the following resources:
+## 📦 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This site is automatically deployed to GitHub Pages via GitHub Actions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### To Enable GitHub Pages:
 
-## Deploy on Vercel
+1. Go to your repository on GitHub
+2. Navigate to **Settings** → **Pages**
+3. Under **Build and deployment** → **Source**, select **GitHub Actions**
+4. Push to the `main` branch to trigger a deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Your site will be live at: `https://YOUR_USERNAME.github.io/letspar-website/`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠 Tech Stack
+
+- [Next.js 16](https://nextjs.org/) - React framework
+- [React 19](https://react.dev/) - UI library
+- [Tailwind CSS 4](https://tailwindcss.com/) - Styling
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                 # Next.js App Router pages
+│   ├── page.tsx         # Homepage
+│   ├── privacy/         # Privacy policy
+│   ├── terms/           # Terms of service
+│   └── freeze-to-fire/  # Feature page
+├── components/          # Reusable UI components
+│   ├── Hero.tsx
+│   ├── Features.tsx
+│   ├── HowItWorks.tsx
+│   ├── FAQ.tsx
+│   └── ...
+public/                  # Static assets
+```
+
+## 📝 License
+
+© LetSpar. All rights reserved.

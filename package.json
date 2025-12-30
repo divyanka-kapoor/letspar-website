@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "pages:build": "next build",
+    "pages:dev": "npx wrangler pages dev --compatibility-date=2024-01-01 -- npm run dev"
   },
   "dependencies": {
     "next": "16.1.1",
@@ -14,6 +16,7 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
