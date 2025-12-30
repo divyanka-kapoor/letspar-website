@@ -152,7 +152,7 @@ export default function FreezeToFirePage() {
       <footer className="py-8 px-6 border-t border-espresso/10">
         <div className="max-w-6xl mx-auto text-center">
           <Link href="/" className="text-chocolate/60 hover:text-espresso transition-colors text-sm">
-            © {new Date().getFullYear()} LetSpar. All rights reserved.
+            © {new Date().getFullYear()} Wit. All rights reserved.
           </Link>
         </div>
       </footer>

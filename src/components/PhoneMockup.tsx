@@ -19,21 +19,21 @@ export default function PhoneMockup() {
 
             {/* Title Section */}
             <div className="text-center mb-2 mt-4">
-              <h2 className="text-2xl font-bold text-cream mb-1">Sparky</h2>
+              <h2 className="text-2xl font-bold text-cream mb-1">Quip</h2>
               <p className="text-goldenrod text-xs font-semibold">Level 1: Observation</p>
               <p className="text-cream/60 text-[10px] mt-1 px-2">
                 Point out something funny about the situation
               </p>
             </div>
 
-            {/* Spacer to push Sparky to center */}
+            {/* Spacer to push Quip to center */}
             <div className="flex-1" />
 
-            {/* Sparky Mascot - Centered */}
+            {/* Quip Mascot - Centered */}
             <div className="relative w-28 h-28 flex items-center justify-center">
               <div className="absolute inset-0 bg-goldenrod/20 rounded-full blur-xl animate-pulse-glow" />
               <img
-                src="/letspar-website/sparky.webp"
+                src="/letspar-website/quip.webp"
                 alt=""
                 width={112}
                 height={112}

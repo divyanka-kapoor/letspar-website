@@ -17,12 +17,10 @@ export default function Hero() {
       aria-labelledby="hero-heading"
       className="min-h-screen flex flex-col items-center justify-center px-6 py-20 relative overflow-hidden"
     >
-      {/* Header with LetSpar Logo - Top Left */}
-      <header className="absolute top-6 left-6 z-20 animate-fade-in-up">
-        <span className="text-2xl font-bold tracking-tight">
-          <span className="text-espresso">Let</span>
-          <span className="gradient-text">Spar</span>
-        </span>
+      {/* Header with Wit Logo - Top Left */}
+      <header className="absolute top-6 left-6 z-20 animate-fade-in-up flex items-center gap-2">
+        <img src="/letspar-website/quip.webp" alt="Quip mascot" className="w-8 h-8 object-contain" />
+        <span className="text-2xl font-bold tracking-tight gradient-text">Wit</span>
       </header>
 
       {/* Background decorative elements */}
@@ -36,12 +34,12 @@ export default function Hero() {
           {/* Left Column - Content */}
           <div className="flex-1 text-center lg:text-left">
 
-            {/* Sparky Mascot - Mobile only */}
+            {/* Quip Mascot - Mobile only */}
             <div className="mb-8 animate-float lg:hidden">
               <div className="relative w-32 h-32 mx-auto">
                 <img
-                  src="/letspar-website/sparky.webp"
-                  alt="Sparky the cockatoo mascot wearing a tuxedo - Your AI Wit Coach"
+                  src="/letspar-website/quip.webp"
+                  alt="Quip the cockatoo mascot wearing a tuxedo - Your AI Wit Coach"
                   width={128}
                   height={128}
                   className="object-contain drop-shadow-lg"
@@ -57,12 +55,12 @@ export default function Hero() {
 
             {/* Sub-headline */}
             <p className="text-xl sm:text-2xl md:text-3xl text-chocolate font-medium mb-6 animate-fade-in-up delay-100">
-              Never Fumble a Comeback Again.
+              Speak Cleverly. Every Time.
             </p>
 
             {/* Email Capture */}
             <div className="flex justify-center lg:justify-start mb-3 animate-fade-in-up delay-300">
-              <EmailCapture variant="hero" buttonText="Get Early Access" />
+              <EmailCapture variant="hero" buttonText="Join the Wit List" />
             </div>
 
             {/* Privacy Note - Left aligned with padding */}

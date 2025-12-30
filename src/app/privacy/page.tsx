@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Privacy Policy - LetSpar',
-  description: 'Privacy Policy for LetSpar - AI-powered wit training app',
+  title: 'Privacy Policy - Wit',
+  description: 'Privacy Policy for Wit - AI-powered wit training app',
 };
 
 export default function PrivacyPolicy() {
@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">1. Information We Collect</h2>
             <p>
-              LetSpar collects minimal information needed to provide our wit training service:
+              Wit collects minimal information needed to provide our wit training service:
             </p>
             <ul className="list-disc pl-6 space-y-2 mt-4">
               <li><strong>Email address:</strong> When you sign up for our waitlist or create an account</li>
@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
             <ul className="list-disc pl-6 space-y-2 mt-4">
               <li>Provide AI-powered feedback on your responses</li>
               <li>Track your progress and maintain your training history</li>
-              <li>Send you updates about LetSpar (only if you opt in)</li>
+              <li>Send you updates about Wit (only if you opt in)</li>
               <li>Improve our service and develop new features</li>
             </ul>
           </section>
@@ -78,8 +78,8 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">6. Contact Us</h2>
             <p>
               For any privacy-related questions, please contact us at{' '}
-              <a href="mailto:privacy@letspar.com" className="text-goldenrod hover:underline">
-                privacy@letspar.com
+              <a href="mailto:privacy@trywit.app" className="text-goldenrod hover:underline">
+                privacy@trywit.app
               </a>
             </p>
           </section>

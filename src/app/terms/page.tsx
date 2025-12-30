@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Terms of Service - LetSpar',
-  description: 'Terms of Service for LetSpar - AI-powered wit training app',
+  title: 'Terms of Service - Wit',
+  description: 'Terms of Service for Wit - AI-powered wit training app',
 };
 
 export default function TermsOfService() {
@@ -27,7 +27,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">1. Acceptance of Terms</h2>
             <p>
-              By accessing or using LetSpar, you agree to be bound by these Terms of Service.
+              By accessing or using Wit, you agree to be bound by these Terms of Service.
               If you do not agree to these terms, please do not use our service.
             </p>
           </section>
@@ -35,14 +35,14 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">2. Description of Service</h2>
             <p>
-              LetSpar is an AI-powered application designed to help users improve their wit,
+              Wit is an AI-powered application designed to help users improve their wit,
               conversational skills, and quick thinking through voice-based practice sessions.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">3. User Conduct</h2>
-            <p>You agree to use LetSpar responsibly and not to:</p>
+            <p>You agree to use Wit responsibly and not to:</p>
             <ul className="list-disc pl-6 space-y-2 mt-4">
               <li>Use the service for any illegal or harmful purposes</li>
               <li>Attempt to circumvent safety features or content moderation</li>
@@ -54,7 +54,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">4. Content Guidelines</h2>
             <p>
-              LetSpar is designed for practicing clever, witty responses. The service includes
+              Wit is designed for practicing clever, witty responses. The service includes
               content moderation to prevent genuinely harmful content. Playful roasts and banter
               are encouraged; genuine harassment is not.
             </p>
@@ -63,7 +63,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">5. Intellectual Property</h2>
             <p>
-              All content, features, and functionality of LetSpar are owned by LetSpar and are
+              All content, features, and functionality of Wit are owned by Wit and are
               protected by intellectual property laws. You retain ownership of your voice responses,
               but grant us a license to process them for service delivery.
             </p>
@@ -72,7 +72,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">6. Disclaimer</h2>
             <p>
-              LetSpar is provided &quot;as is&quot; without warranties of any kind. We do not guarantee
+              Wit is provided &quot;as is&quot; without warranties of any kind. We do not guarantee
               that the service will be uninterrupted or error-free. AI feedback is for entertainment
               and practice purposes; use your own judgment in real-world situations.
             </p>
@@ -81,7 +81,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">7. Limitation of Liability</h2>
             <p>
-              LetSpar shall not be liable for any indirect, incidental, special, or consequential
+              Wit shall not be liable for any indirect, incidental, special, or consequential
               damages arising from your use of the service.
             </p>
           </section>
@@ -98,8 +98,8 @@ export default function TermsOfService() {
             <h2 className="text-2xl font-bold text-espresso mt-8 mb-4">9. Contact</h2>
             <p>
               For questions about these terms, contact us at{' '}
-              <a href="mailto:support@letspar.com" className="text-goldenrod hover:underline">
-                support@letspar.com
+              <a href="mailto:support@trywit.app" className="text-goldenrod hover:underline">
+                support@trywit.app
               </a>
             </p>
           </section>

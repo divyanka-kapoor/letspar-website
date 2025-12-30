@@ -5,15 +5,15 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'Is this just for roasting people?',
-    answer: "Nope! While playful banter is part of it, LetSpar is really about building verbal agility. You'll learn techniques like observation, self-deprecation, and clever redirects. It's about being quick and witty, not mean.",
+    answer: "Nope! While playful banter is part of it, Wit is really about building verbal agility. You'll learn techniques like observation, self-deprecation, and clever redirects. It's about being quick and witty, not mean.",
   },
   {
     question: 'Do I need to be funny already?',
-    answer: "Absolutely not. That's the whole point! Wit is a trainable skill, not a gift you're born with. Sparky will coach you through techniques used by comedians and quick thinkers. You'll build the muscle memory for cleverness.",
+    answer: "Absolutely not. That's the whole point! Wit is a trainable skill, not a gift you're born with. Quip will coach you through techniques used by comedians and quick thinkers. You'll build the muscle memory for cleverness.",
   },
   {
     question: 'What if I\'m an introvert?',
-    answer: "Perfect. LetSpar is designed for private practice. No awkward comedy classes, no improv nights with strangers. Just you, your phone, and an AI coach. Practice at home, shine in public.",
+    answer: "Perfect. Wit is designed for private practice. No awkward comedy classes, no improv nights with strangers. Just you, your phone, and an AI coach. Practice at home, shine in public.",
   },
   {
     question: 'How is my voice data handled?',
@@ -98,7 +98,7 @@ export default function FAQ() {
           <p className="text-sm text-chocolate/60">
             Still have questions?{' '}
             <a
-              href="mailto:hello@letspar.com"
+              href="mailto:hello@trywit.app"
               className="text-goldenrod hover:underline font-medium"
             >
               Reach out to us

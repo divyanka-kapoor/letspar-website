@@ -17,7 +17,7 @@ const personas = [
   {
     emoji: '🤫',
     title: 'Want to practice privately?',
-    description: 'No audience. No judgment. Just you and Sparky.',
+    description: 'No audience. No judgment. Just you and Quip.',
   },
 ];
 

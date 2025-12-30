@@ -32,7 +32,7 @@ export default function Features() {
             From Freeze to Fire
           </h2>
           <p className="text-lg text-chocolate/70 max-w-2xl mx-auto italic">
-            We built LetSpar because we were tired of thinking of the perfect comeback in the shower.
+            We built Wit because we were tired of thinking of the perfect comeback in the shower.
           </p>
         </div>
 

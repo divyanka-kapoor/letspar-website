@@ -46,12 +46,12 @@ export default function Footer() {
             Ready to stop freezing?
           </h2>
           <p className="text-lg text-cream/70 mb-8">
-            Join the waitlist and be first to train with Sparky.
+            Join the Wit List and be first to train with Quip.
           </p>
 
           {/* Email Capture */}
           <div className="flex justify-center mb-8">
-            <EmailCapture variant="footer" buttonText="Join the Waitlist" />
+            <EmailCapture variant="footer" buttonText="Join the Wit List" />
           </div>
 
           {/* Platform Badges */}
@@ -117,7 +117,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-sm text-cream/40">
-            © {new Date().getFullYear()} LetSpar. All rights reserved.
+            © {new Date().getFullYear()} Wit. All rights reserved.
           </p>
         </div>
       </div>

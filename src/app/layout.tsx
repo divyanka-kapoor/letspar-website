@@ -13,34 +13,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://letspar.com"),
-  title: "LetSpar - Train Your Wit",
-  description: "Never fumble a comeback again. AI-coached wit training. Voice-first. 10 minutes a day. Join the waitlist for early access.",
+  metadataBase: new URL("https://trywit.app"),
+  title: "Wit - Train Your Wit",
+  description: "Speak cleverly. Every time. AI-coached wit training. Voice-first. 10 minutes a day. Join the Wit List for early access.",
   keywords: ["wit training", "comebacks", "AI coach", "conversation skills", "quick thinking", "verbal agility"],
-  authors: [{ name: "LetSpar" }],
-  creator: "LetSpar",
+  authors: [{ name: "Wit" }],
+  creator: "Wit",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://letspar.com",
-    siteName: "LetSpar",
-    title: "LetSpar - Train Your Wit",
-    description: "Never fumble a comeback again. AI-coached wit training. Voice-first. 10 minutes a day.",
+    url: "https://trywit.app",
+    siteName: "Wit",
+    title: "Wit - Train Your Wit",
+    description: "Speak cleverly. Every time. AI-coached wit training. Voice-first. 10 minutes a day.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "LetSpar - Train Your Wit",
+        alt: "Wit - Train Your Wit",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "LetSpar - Train Your Wit",
-    description: "Never fumble a comeback again. AI-coached wit training. Voice-first. 10 minutes a day.",
+    title: "Wit - Train Your Wit",
+    description: "Speak cleverly. Every time. AI-coached wit training. Voice-first. 10 minutes a day.",
     images: ["/og-image.png"],
-    creator: "@letspar",
+    creator: "@trywit",
   },
   robots: {
     index: true,

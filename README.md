@@ -1,6 +1,6 @@
-# LetSpar - Train Your Wit
+# Wit - Train Your Wit
 
-Never fumble a comeback again. AI-coached wit training. Voice-first. 10 minutes a day.
+Speak cleverly. Every time. AI-coached wit training. Voice-first. 10 minutes a day.
 
 ## 🚀 Getting Started
 
@@ -32,7 +32,7 @@ This site is automatically deployed to GitHub Pages via GitHub Actions.
 3. Under **Build and deployment** → **Source**, select **GitHub Actions**
 4. Push to the `main` branch to trigger a deployment
 
-Your site will be live at: `https://YOUR_USERNAME.github.io/letspar-website/`
+Your site will be live at: `https://trywit.app/`
 
 ## 🛠 Tech Stack
 
@@ -59,6 +59,10 @@ src/
 public/                  # Static assets
 ```
 
+## 🦜 Meet Quip
+
+Quip is your AI wit coach - a sharp, analytical cockatoo who helps you develop your "Wit Muscle" through voice-first training.
+
 ## 📝 License
 
-© LetSpar. All rights reserved.
+© Wit. All rights reserved.

@@ -2,7 +2,7 @@ const steps = [
   {
     number: 1,
     emoji: '🎤',
-    title: 'Sparky throws a curveball',
+    title: 'Quip throws a curveball',
     example: '"You look like someone who rehearses their coffee order."',
     color: 'from-goldenrod/20 to-goldenrod/5',
   },
