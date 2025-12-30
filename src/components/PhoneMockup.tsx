@@ -32,8 +32,8 @@ export default function PhoneMockup() {
             {/* Sparky Mascot - Centered */}
             <div className="relative w-28 h-28 flex items-center justify-center">
               <div className="absolute inset-0 bg-goldenrod/20 rounded-full blur-xl animate-pulse-glow" />
-              <Image
-                src="/sparky.webp"
+              <img
+                src="/letspar-website/sparky.webp"
                 alt=""
                 width={112}
                 height={112}

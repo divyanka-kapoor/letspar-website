@@ -39,13 +39,12 @@ export default function Hero() {
             {/* Sparky Mascot - Mobile only */}
             <div className="mb-8 animate-float lg:hidden">
               <div className="relative w-32 h-32 mx-auto">
-                <Image
-                  src="/sparky.webp"
+                <img
+                  src="/letspar-website/sparky.webp"
                   alt="Sparky the cockatoo mascot wearing a tuxedo - Your AI Wit Coach"
                   width={128}
                   height={128}
                   className="object-contain drop-shadow-lg"
-                  priority
                 />
               </div>
             </div>
